@@ -1,0 +1,33 @@
+<html lang="fr">
+
+<head>
+    <style>
+        body {
+            background-color: #021e21;
+        }
+    </style>
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }}</title>
+</head>
+
+<body>
+    <nav>
+        <a href="{{ '/projets/' | relative_url }}">Projets</a>
+        <a href="{{ '/contact/' | relative_url }}">Accueil</a>
+    </nav>
+    </hr>
+
+    <main>
+        {{ content }}
+    </main>
+
+    </hr>
+    <footer>
+        <p>© 2026 - Valentin Hoc</p>
+    </footer>
+</body>
+
+</html>
